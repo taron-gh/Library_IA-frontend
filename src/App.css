@@ -2,37 +2,109 @@
 #root {
   height: 100vh;
 }
-.App{
+
+.App {
   height: 100%;
   display: flex;
   align-items: center;
 }
+.display-flex{
+  display: flex;
+}
+.display-none{
+  display: none;
+}
 
 /* ---------------LOGIN---------------- */
-.login-container{
-  display: none; /* flex */
+.login-container {
+  /* display: flex; */
   justify-content: center;
   flex-direction: column;
   width: 20em;
   margin: auto;
 
 }
-.login-container *{
+
+.login-container * {
   margin: 5px;
   padding: 5px;
 }
-
+.login-label{
+  color: red;
+}
 
 /* ---------------REGISTER---------------- */
-.register-container{
-  display: none; /* flex */
+.register-container {
+  /* display: flex; */
   justify-content: center;
   flex-direction: column;
   width: 20em;
   margin: auto;
 
 }
-.register-container *{
+
+.register-container * {
   margin: 5px;
   padding: 5px;
+}
+
+/* ---------------USER---------------- */
+.user-container {
+  /* display: flex; */
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+
+}
+
+.user-container * {
+  margin: 5px;
+  padding: 5px;
+}
+
+.user-books-column-container {
+  display: flex;
+
+}
+.user-book-column{
+  width: 100%;
+}
+.book{
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  width: 100%;
+  padding: 3px;
+}
+h1{
+  align-self: center;
+}
+
+/* ---------------ADMIN---------------- */
+
+.admin-container {
+  /* display: flex; */
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+}
+
+.user-container * {
+  margin: 5px;
+  padding: 5px;
+}
+
+.user-books{
+  width: 100%;
+}
+
+h1{
+  align-self: center;
+}
+.add-book-button{
+  align-self: center;
+  margin-bottom: 1.5em;
 }
